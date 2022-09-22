@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background: none;
+      }
+      #components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#components-layout-demo-side .site-layout .site-layout-background {
+  background: #fff;
+}
+  [data-theme="dark"] .site-layout .site-layout-background {
+    background: #141414;
+  }
+
+    </style>
+    <script>
+      const nodes = new Map();
+
+      // sync parent inline style or remote style
+      function syncStyle() {
+        const existNodes = new Set();
+
+        const allStyles = [].concat(
+          // Inline style
+          [].slice.call(parent.document.querySelectorAll('style')),
+          // Remote style
+          [].slice.call(parent.document.querySelectorAll('link[rel=stylesheet]'))
+        );
+
+        allStyles.forEach(function(node) {
+          if (node) {
+            if (!nodes.has(node)) {
+              const cloneNode = node.cloneNode(true);
+              document.getElementsByTagName('head')[0].appendChild(cloneNode);
+
+              nodes.set(node,cloneNode);
+            }
+          }
+        });
+
+        Array.from(nodes.keys()).forEach(function(node) {
+          if (!allStyles.includes(node)) {
+            const oodNode = nodes.get(node);
+            oodNode.parentNode.removeChild(oodNode);
+            nodes.delete(node);
+          }
+        });
+      }
+
+      syncStyle();
+
+      // Use MutationObserver to sync style update
+      const observer = new MutationObserver(function(mutationsList, observer) {
+        for (let mutation of mutationsList) {
+          if (mutation.type === 'childList') {
+            syncStyle();
+          }
+        }
+      });
+
+      observer.observe(parent.document.querySelector('head'), { childList: true });
+    </script>
+  </head>
+  <body>
+    <div id="components-layout-demo-side"></div>
+    <script>
+      function require(module) {
+        if (module === 'react-router') {
+          return window.ReactRouter;
+        }
+        if (module === 'react-router-dom') {
+          return window.ReactRouterDOM;
+        }
+        return window.parent[module];
+      }
+      var mountNode = document.getElementById('components-layout-demo-side');
+      var React = require('react');
+      var ReactDOM = require('react-dom');
+    </script>
+    
+    <script>
+      function bishengPluginReactPreviewer() {
+  var React = require("react");
+
+  var ReactDOM = require("react-dom");
+
+  function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+  var _icons = require("@ant-design/icons");
+
+  var _antd = require("antd");
+
+  var _react = _interopRequireWildcard(require("react"));
+
+  function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+  function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+  function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+  function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+  function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+  function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+  function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+  function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+  var Header = _antd.Layout.Header,
+      Content = _antd.Layout.Content,
+      Footer = _antd.Layout.Footer,
+      Sider = _antd.Layout.Sider;
+
+  function getItem(label, key, icon, children) {
+    return {
+      key: key,
+      icon: icon,
+      children: children,
+      label: label
+    };
+  }
+
+  var items = [getItem('Option 1', '1', /*#__PURE__*/_react["default"].createElement(_icons.PieChartOutlined, null)), getItem('Option 2', '2', /*#__PURE__*/_react["default"].createElement(_icons.DesktopOutlined, null)), getItem('User', 'sub1', /*#__PURE__*/_react["default"].createElement(_icons.UserOutlined, null), [getItem('Tom', '3'), getItem('Bill', '4'), getItem('Alex', '5')]), getItem('Team', 'sub2', /*#__PURE__*/_react["default"].createElement(_icons.TeamOutlined, null), [getItem('Team 1', '6'), getItem('Team 2', '8')]), getItem('Files', '9', /*#__PURE__*/_react["default"].createElement(_icons.FileOutlined, null))];
+
+  var App = function App() {
+    var _useState = (0, _react.useState)(false),
+        _useState2 = _slicedToArray(_useState, 2),
+        collapsed = _useState2[0],
+        setCollapsed = _useState2[1];
+
+    return /*#__PURE__*/_react["default"].createElement(_antd.Layout, {
+      style: {
+        minHeight: '100vh'
+      }
+    }, /*#__PURE__*/_react["default"].createElement(Sider, {
+      collapsible: true,
+      collapsed: collapsed,
+      onCollapse: function onCollapse(value) {
+        return setCollapsed(value);
+      }
+    }, /*#__PURE__*/_react["default"].createElement("div", {
+      className: "logo"
+    }), /*#__PURE__*/_react["default"].createElement(_antd.Menu, {
+      theme: "dark",
+      defaultSelectedKeys: ['1'],
+      mode: "inline",
+      items: items
+    })), /*#__PURE__*/_react["default"].createElement(_antd.Layout, {
+      className: "site-layout"
+    }, /*#__PURE__*/_react["default"].createElement(Header, {
+      className: "site-layout-background",
+      style: {
+        padding: 0
+      }
+    }), /*#__PURE__*/_react["default"].createElement(Content, {
+      style: {
+        margin: '0 16px'
+      }
+    }, /*#__PURE__*/_react["default"].createElement(_antd.Breadcrumb, {
+      style: {
+        margin: '16px 0'
+      }
+    }, /*#__PURE__*/_react["default"].createElement(_antd.Breadcrumb.Item, null, "User"), /*#__PURE__*/_react["default"].createElement(_antd.Breadcrumb.Item, null, "Bill")), /*#__PURE__*/_react["default"].createElement("div", {
+      className: "site-layout-background",
+      style: {
+        padding: 24,
+        minHeight: 360
+      }
+    }, "Bill is a cat.")), /*#__PURE__*/_react["default"].createElement(Footer, {
+      style: {
+        textAlign: 'center'
+      }
+    }, "Ant Design \xA92018 Created by Ant UED")));
+  };
+
+  var _default = App;
+  return /*#__PURE__*/React.createElement(_default);
+}
+    </script>
+    <script>
+      var ReactDOM = require('react-dom');
+      var app = bishengPluginReactPreviewer();
+
+      if (true) {
+        var container = null;
+        var originApp = app;
+        var demoRef = React.createRef();
+
+        window.addEventListener('message', function(event) {
+          var result = JSON.parse(event.data);
+
+          if (result.action === 'sync.theme') {
+            demoRef.current.setTheme({
+              token: result.designToken,
+              hashed: result.hashed,
+            });
+          }
+        });
+
+        var Demo = React.forwardRef(function (_, ref) {
+          var [theme, setTheme] = React.useState();
+
+          React.useImperativeHandle(ref, function() {
+            return { setTheme(newTheme) {
+              if (JSON.stringify(theme) !== JSON.stringify(newTheme)) {
+                setTheme(newTheme);
+              }
+            } };
+          });
+
+          return React.createElement(
+            require('antd').ConfigProvider,
+            {
+              getPopupContainer() { return container; },
+              theme: theme,
+            },
+            [
+              React.cloneElement(originApp, { key: 'AppContent' }),
+              React.createElement('div', {
+                key: 'InjectProviderHolder',
+                ref(node) { container = node; },
+              }),
+            ],
+          );
+        });
+
+        app = React.createElement(Demo, { ref: demoRef });
+      }
+
+      ReactDOM.render(app, mountNode);
+    </script>
+    <script src="https://unpkg.com/theme-switcher@1.x/dist/index.min.js"></script>
+    <script>
+      var timestamp = new Date().getTime();
+      // handle message with parent
+      function handleMessage(event) {
+        try {
+          var result = JSON.parse(event.data);
+          switch (result.action) {
+            //
+            case 'change.theme': {
+              var themeData = result.data;
+              var theme = themeData.theme;
+              var themeConfig = themeData.themeConfig;
+              if (window.ThemeSwitcher) {
+                var themeSwitcher = window.ThemeSwitcher(themeConfig);
+                themeSwitcher.switcher({
+                  theme: theme,
+                  useStorage: false,
+                });
+              }
+              break;
+            }
+            default: {}
+          }
+        } catch (_) {
+          window.parent.console.error('[Demo] handleMessage error', _);
+        }
+      }
+
+      window.addEventListener('message', handleMessage, false);
+    </script>
+  </body>
+</html>
