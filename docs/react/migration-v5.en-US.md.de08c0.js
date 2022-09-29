@@ -132,24 +132,4 @@ export default {
     </div>
   );
 
-  export default App;`]],["h2","Start upgrading"],["h4","Migrate with codemod"],["blockquote",["p","Not provided yet, coming soon after ",["code","5.0.0"]," release."]],["pre",{lang:"bash",highlighted:`<span class="token comment" spellcheck="true"># Run directly through npx</span>
-npx -p @ant-design/codemod-v5 antd5-codemod src
-
-<span class="token comment" spellcheck="true"># Or global installation</span>
-<span class="token comment" spellcheck="true"># Use npm</span>
-<span class="token function">npm</span> i -g @ant-design/codemod-v5
-<span class="token comment" spellcheck="true"># Use yarn</span>
-yarn global add @ant-design/codemod-v5
-
-<span class="token comment" spellcheck="true"># Execute</span>
-antd5-codemod src`},["code",`# Run directly through npx
-npx -p @ant-design/codemod-v5 antd5-codemod src
-
-# Or global installation
-# Use npm
-npm i -g @ant-design/codemod-v5
-# Use yarn
-yarn global add @ant-design/codemod-v5
-
-# Execute
-antd5-codemod src`]],["blockquote",["p","Note that codemod cannot cover all scenarios, and it is recommended to check for incompatible changes one by one."]],["p","At the same time, you can also use the codemod tool to apply a single change for a certain change. The following is a description of all the migration scripts:"],["h4","Install compatible package"],["p","Install ",["code","@ant-design/compatible"]," with ",["code","v5-compatible-v4"]," tag:"],["pre",{lang:"bash",highlighted:'<span class="token function">npm</span> <span class="token function">install</span> --save @ant-design/compatible@v5-compatible-v4'},["code","npm install --save @ant-design/compatible@v5-compatible-v4"]],["h2","Encounter problems"],["p","If you encounter problems during the upgrade, please go to ",["a",{title:null,href:"http://new-issue.ant.design/"},"GitHub issues"]," for feedback. We will respond and improve this document as soon as possible."]],meta:{order:8,title:"V4 to V5",filename:"docs/react/migration-v5.en-US.md"},toc:["ul",["li",["a",{className:"bisheng-toc-h2",href:"#Upgrade-preparation",title:"Upgrade preparation"},"Upgrade preparation"]],["li",["a",{className:"bisheng-toc-h2",href:"#Incompatible-changes-in-v5",title:"Incompatible changes in v5"},"Incompatible changes in v5"]],["li",["a",{className:"bisheng-toc-h2",href:"#Start-upgrading",title:"Start upgrading"},"Start upgrading"]],["li",["a",{className:"bisheng-toc-h2",href:"#Encounter-problems",title:"Encounter problems"},"Encounter problems"]]]}}}]);
+  export default App;`]],["h2","Start upgrading"],["p","You can apply the changes mentioned above manually, and also we will provide codemod tool after released to help you upgrade."],["h2","Encounter problems"],["p","If you encounter problems during the upgrade, please go to ",["a",{title:null,href:"http://new-issue.ant.design/"},"GitHub issues"]," for feedback. We will respond and improve this document as soon as possible."]],meta:{order:8,title:"V4 to V5",filename:"docs/react/migration-v5.en-US.md"},toc:["ul",["li",["a",{className:"bisheng-toc-h2",href:"#Upgrade-preparation",title:"Upgrade preparation"},"Upgrade preparation"]],["li",["a",{className:"bisheng-toc-h2",href:"#Incompatible-changes-in-v5",title:"Incompatible changes in v5"},"Incompatible changes in v5"]],["li",["a",{className:"bisheng-toc-h2",href:"#Start-upgrading",title:"Start upgrading"},"Start upgrading"]],["li",["a",{className:"bisheng-toc-h2",href:"#Encounter-problems",title:"Encounter problems"},"Encounter problems"]]]}}}]);

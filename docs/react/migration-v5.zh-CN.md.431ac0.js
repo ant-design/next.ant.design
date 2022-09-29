@@ -132,24 +132,4 @@ export default {
     </div>
   );
 
-  export default App;`]],["h2","\u5F00\u59CB\u5347\u7EA7"],["h4","\u4F7F\u7528\u8FC1\u79FB\u5DE5\u5177\u4FEE\u6539"],["blockquote",["p","\u5C06\u4F1A\u5728 5.0 \u6B63\u5F0F\u7248\u53D1\u5E03\u540E\u63D0\u4F9B\u3002"]],["pre",{lang:"bash",highlighted:`<span class="token comment" spellcheck="true"># \u901A\u8FC7 npx \u76F4\u63A5\u8FD0\u884C</span>
-npx -p @ant-design/codemod-v5 antd5-codemod <span class="token operator">&lt;</span>path<span class="token operator">></span>
-
-<span class="token comment" spellcheck="true"># \u6216\u8005\u5168\u5C40\u5B89\u88C5</span>
-<span class="token comment" spellcheck="true"># \u4F7F\u7528 npm</span>
-<span class="token function">npm</span> i -g @ant-design/codemod-v5
-<span class="token comment" spellcheck="true"># \u6216\u8005\u4F7F\u7528 yarn</span>
-yarn global add @ant-design/codemod-v5
-
-<span class="token comment" spellcheck="true"># \u8FD0\u884C</span>
-antd5-codemod src`},["code",`# \u901A\u8FC7 npx \u76F4\u63A5\u8FD0\u884C
-npx -p @ant-design/codemod-v5 antd5-codemod <path>
-
-# \u6216\u8005\u5168\u5C40\u5B89\u88C5
-# \u4F7F\u7528 npm
-npm i -g @ant-design/codemod-v5
-# \u6216\u8005\u4F7F\u7528 yarn
-yarn global add @ant-design/codemod-v5
-
-# \u8FD0\u884C
-antd5-codemod src`]],["blockquote",["p","\u6CE8\u610F codemod \u4E0D\u80FD\u6DB5\u76D6\u6240\u6709\u573A\u666F\uFF0C\u5EFA\u8BAE\u8FD8\u662F\u8981\u6309\u4E0D\u517C\u5BB9\u7684\u53D8\u5316\u9010\u6761\u6392\u67E5\u3002"]],["p","\u540C\u65F6\u4E5F\u53EF\u4EE5\u9488\u5BF9\u67D0\u9879\u6539\u52A8\u4F7F\u7528\u8FC1\u79FB\u5DE5\u5177\u5355\u72EC\u6267\u884C\uFF0C\u4E0B\u9762\u662F\u6240\u6709\u8FC1\u79FB\u811A\u672C\u7684\u8BF4\u660E\uFF1A"],["h4","\u5B89\u88C5\u517C\u5BB9\u5305"],["p","\u5B89\u88C5 ",["code","@ant-design/compatible"]," \u901A\u8FC7\u6307\u5B9A ",["code","v5-compatible-v4"]," tag \u786E\u8BA4\u4E3A v5 \u517C\u5BB9 v4 \u7248\u672C\uFF1A"],["pre",{lang:"bash",highlighted:'<span class="token function">npm</span> <span class="token function">install</span> --save @ant-design/compatible@v5-compatible-v4'},["code","npm install --save @ant-design/compatible@v5-compatible-v4"]],["h2","\u9047\u5230\u95EE\u9898"],["p","\u5982\u679C\u4F60\u5728\u5347\u7EA7\u8FC7\u7A0B\u4E2D\u9047\u5230\u4E86\u95EE\u9898\uFF0C\u8BF7\u5230 ",["a",{title:null,href:"http://new-issue.ant.design/"},"GitHub issues"]," \u8FDB\u884C\u53CD\u9988\u3002\u6211\u4EEC\u4F1A\u5C3D\u5FEB\u54CD\u5E94\u548C\u76F8\u5E94\u6539\u8FDB\u8FD9\u7BC7\u6587\u6863\u3002"]],meta:{order:8,title:"\u4ECE v4 \u5230 v5",filename:"docs/react/migration-v5.zh-CN.md"},toc:["ul",["li",["a",{className:"bisheng-toc-h2",href:"#\u5347\u7EA7\u51C6\u5907",title:"\u5347\u7EA7\u51C6\u5907"},"\u5347\u7EA7\u51C6\u5907"]],["li",["a",{className:"bisheng-toc-h2",href:"#5.0-\u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316",title:"5.0 \u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316"},"5.0 \u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316"]],["li",["a",{className:"bisheng-toc-h2",href:"#\u5F00\u59CB\u5347\u7EA7",title:"\u5F00\u59CB\u5347\u7EA7"},"\u5F00\u59CB\u5347\u7EA7"]],["li",["a",{className:"bisheng-toc-h2",href:"#\u9047\u5230\u95EE\u9898",title:"\u9047\u5230\u95EE\u9898"},"\u9047\u5230\u95EE\u9898"]]]}}}]);
+  export default App;`]],["h2","\u5F00\u59CB\u5347\u7EA7"],["p","\u60A8\u53EF\u4EE5\u53C2\u7167\u4E0A\u6587\u6240\u8FF0\u6539\u52A8\u624B\u52A8\u4FEE\u6539\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5728\u6B63\u5F0F\u7248\u53D1\u5E03\u540E\u63D0\u4F9B codemod \u5DE5\u5177\u6765\u5E2E\u52A9\u60A8\u81EA\u52A8\u5347\u7EA7\u3002"],["h2","\u9047\u5230\u95EE\u9898"],["p","\u5982\u679C\u60A8\u5728\u5347\u7EA7\u8FC7\u7A0B\u4E2D\u9047\u5230\u4E86\u95EE\u9898\uFF0C\u8BF7\u5230 ",["a",{title:null,href:"http://new-issue.ant.design/"},"GitHub issues"]," \u8FDB\u884C\u53CD\u9988\u3002\u6211\u4EEC\u4F1A\u5C3D\u5FEB\u54CD\u5E94\u548C\u76F8\u5E94\u6539\u8FDB\u8FD9\u7BC7\u6587\u6863\u3002"]],meta:{order:8,title:"\u4ECE v4 \u5230 v5",filename:"docs/react/migration-v5.zh-CN.md"},toc:["ul",["li",["a",{className:"bisheng-toc-h2",href:"#\u5347\u7EA7\u51C6\u5907",title:"\u5347\u7EA7\u51C6\u5907"},"\u5347\u7EA7\u51C6\u5907"]],["li",["a",{className:"bisheng-toc-h2",href:"#5.0-\u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316",title:"5.0 \u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316"},"5.0 \u6709\u54EA\u4E9B\u4E0D\u517C\u5BB9\u7684\u53D8\u5316"]],["li",["a",{className:"bisheng-toc-h2",href:"#\u5F00\u59CB\u5347\u7EA7",title:"\u5F00\u59CB\u5347\u7EA7"},"\u5F00\u59CB\u5347\u7EA7"]],["li",["a",{className:"bisheng-toc-h2",href:"#\u9047\u5230\u95EE\u9898",title:"\u9047\u5230\u95EE\u9898"},"\u9047\u5230\u95EE\u9898"]]]}}}]);
