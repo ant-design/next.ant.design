@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[65556],{65556:function(d,u,a){a.r(u);var e=a(67294),t=a(13669),n=a(66366),o=function(){return(0,n.tZ)(t.Radio.Group,{buttonStyle:"solid"},(0,n.tZ)(t.Badge,{count:1},(0,n.tZ)(t.Radio.Button,{value:1},"Click Me")),(0,n.tZ)(t.Badge,{count:2},(0,n.tZ)(t.Radio.Button,{value:2},"Not Me")))};u.default=o}}]);

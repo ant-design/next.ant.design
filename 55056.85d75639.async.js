@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[55056],{55056:function(E,e,_){_.r(e);var a=_(5574),t=_.n(a),n=_(67294),u=_(13669),l=_(66366),o=function(){var d=(0,n.useState)("Map"),s=t()(d,2),r=s[0],m=s[1];return(0,l.tZ)(u.Segmented,{options:["Map","Transit","Satellite"],value:r,onChange:m})};e.default=o}}]);

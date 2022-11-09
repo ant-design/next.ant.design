@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[94206],{94206:function(c,a,n){n.r(a);var u=n(67294),t=n(13669),e=n(66366),l=function(){var o=function(d,s){console.log(d.format("YYYY-MM-DD"),s)};return(0,e.tZ)("div",{className:"site-calendar-demo-card"},(0,e.tZ)(t.Calendar,{fullscreen:!1,onPanelChange:o}))};a.default=l}}]);

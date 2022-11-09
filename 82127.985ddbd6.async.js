@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[82127],{82127:function(u,n,t){t.r(n);var E=t(67294),l=t(13669),o=t(66366),a=function(){return(0,o.tZ)(l.Tooltip,{title:"prompt text"},(0,o.tZ)("span",null,"Tooltip will show on mouse enter."))};n.default=a}}]);
