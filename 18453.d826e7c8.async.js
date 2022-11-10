@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[18453],{18453:function(a,n,t){t.r(n);var d=t(67294),l=t(13669),e=t(66366),o=function(){return(0,e.tZ)(l.Tooltip,{destroyTooltipOnHide:{keepParent:!1},title:"prompt text"},(0,e.tZ)("span",null,"Tooltip will destroy when hidden."))};n.default=o}}]);

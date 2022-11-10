@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[3126],{3126:function(u,t,n){n.r(t);var E=n(71062),a=n(12629),c=n(13103),o=function(C){console.log("checked = ".concat(C.target.checked))},e=function(){return(0,c.tZ)(a.Checkbox,{onChange:o},"Checkbox")};t.default=e}}]);

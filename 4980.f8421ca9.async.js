@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[4980],{4980:function(u,e,t){t.r(e);var l=t(71062),o=t(12629),n=t(13103),a=o.Popconfirm._InternalPanelDoNotUseOrYouWillBeFired,r=function(){return(0,n.tZ)(l.Fragment,null,(0,n.tZ)(a,{title:"Are you OK?"}),(0,n.tZ)(a,{title:"Are you OK?",placement:"bottomRight",style:{width:250}}))};e.default=r}}]);

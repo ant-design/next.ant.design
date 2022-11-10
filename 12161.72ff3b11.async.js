@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[12161],{12161:function(c,t,n){n.r(t);var l=n(67294),o=n(13669),u=n(66366),a=function(){return(0,u.tZ)(o.FloatButton,{onClick:function(){return console.log("click")}})};t.default=a}}]);

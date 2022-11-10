@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[65504],{65504:function(i,n,t){t.r(n);var o=t(71062),e=t(12629),a=t(13103),s=function(){return(0,a.tZ)(e.Spin,{tip:"Loading..."},(0,a.tZ)(e.Alert,{message:"Alert message title",description:"Further details about the context of this alert.",type:"info"}))};n.default=s}}]);

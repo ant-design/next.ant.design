@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[62028],{62028:function(s,a,t){t.r(a);var o=t(71062),n=t(12629),u=t(13103),e=function(){return(0,u.tZ)(n.Result,{status:"403",title:"403",subTitle:"Sorry, you are not authorized to access this page.",extra:(0,u.tZ)(n.Button,{type:"primary"},"Back Home")})};a.default=e}}]);

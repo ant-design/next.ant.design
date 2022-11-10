@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[26587],{26587:function(o,n,t){t.r(n);var E=t(67294),a=t(13669),e=t(66366),u=function(){return(0,e.tZ)(a.Popconfirm,{title:"Are you sure\uFF1F",okText:"Yes",cancelText:"No"},(0,e.tZ)("a",{href:"#"},"Delete"))};n.default=u}}]);
