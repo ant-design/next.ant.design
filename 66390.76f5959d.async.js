@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[66390],{66390:function(l,a,n){n.r(a);var C=n(71062),E=n(12629),_=n(47699),t=n.n(_),P=n(34500),s=n.n(P),o=n(13103);t().extend(s());var O=function(M,u){console.log(M,u)},d=function(){return(0,o.tZ)(E.TimePicker,{onChange:O,defaultOpenValue:t()("00:00:00","HH:mm:ss")})};a.default=d}}]);

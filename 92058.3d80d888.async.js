@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[92058],{92058:function(d,e,a){a.r(e);var b=a(71062),t=a(12629),l=a(13103),n=function(){return(0,l.tZ)(t.Tabs,{defaultActiveKey:"1",items:[{label:"Tab 1",key:"1",children:"Tab 1"},{label:"Tab 2",key:"2",children:"Tab 2",disabled:!0},{label:"Tab 3",key:"3",children:"Tab 3"}]})};e.default=n}}]);

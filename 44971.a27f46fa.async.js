@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[44971],{44971:function(r,a,n){n.r(a);var d=n(67294),e=n(13669),u=n(13946),c=function(){return(0,u.tZ)(e.Tabs,{defaultActiveKey:"1",centered:!0,items:new Array(3).fill(null).map(function(o,l){var t=String(l+1);return{label:"Tab ".concat(t),key:t,children:"Content of Tab Pane ".concat(t)}})})};a.default=c}}]);

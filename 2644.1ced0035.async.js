@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[2644],{2644:function(C,e,_){_.r(e);var a=_(21071),t=_.n(a),u=_(71062),s=_(12629),l=_(13103),d=function(){var o=(0,u.useState)(null),n=t()(o,2),r=n[0],E=n[1],h=function(i){E(i)};return(0,l.tZ)(s.TimePicker,{value:r,onChange:h})};e.default=d}}]);

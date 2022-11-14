@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[18093],{18093:function(E,t,n){n.r(t);var l=n(71062),o=n(12629),a=n(13103),f=function(){return(0,a.tZ)(o.Affix,{offsetTop:120,onChange:function(u){return console.log(u)}},(0,a.tZ)(o.Button,null,"120px to affix top"))};t.default=f}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[38074],{38074:function(e,a,n){n.r(a);var f=n(71062),t=n(12629),s=n(13103),o=function(){t.message.info("This is a normal message")},i=function(){return(0,s.tZ)(t.Button,{type:"primary",onClick:o},"Display normal message")};a.default=i}}]);

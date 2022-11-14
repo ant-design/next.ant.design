@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[29334],{29334:function(e,n,t){t.r(n);var l=t(67294),u=t(13669),a=t(13946),r=function(){return(0,a.tZ)(u.Space,{size:[8,16],wrap:!0},new Array(20).fill(null).map(function(f,E){return(0,a.tZ)(u.Button,{key:E},"Button")}))};n.default=r}}]);

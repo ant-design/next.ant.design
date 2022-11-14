@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[25001],{25001:function(E,n,t){t.r(n);var o=t(71062),a=t(12629),s=t(13103),u=function(){return(0,s.tZ)(a.Image,{width:200,src:"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"})};n.default=u}}]);

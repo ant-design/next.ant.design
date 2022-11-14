@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[57e3],{25835:function(s,e,t){t.r(e);var c=t(71062),o=t(12629),n=t(13103),a=o.Mentions.Option,u=function(){return(0,n.tZ)(o.Mentions,{style:{width:"100%"},placement:"top"},(0,n.tZ)(a,{value:"afc163"},"afc163"),(0,n.tZ)(a,{value:"zombieJ"},"zombieJ"),(0,n.tZ)(a,{value:"yesmeck"},"yesmeck"))};e.default=u}}]);

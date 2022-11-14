@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[70377],{17743:function(E,a,n){n.r(a);var P=n(67294),t=n(13669),o=n(13946),e=function(){var l=function(u,C){console.log(u.format("YYYY-MM-DD"),C)};return(0,o.tZ)(t.Calendar,{onPanelChange:l})};a.default=e}}]);

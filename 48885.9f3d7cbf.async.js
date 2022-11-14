@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[48885],{68613:function(s,a,t){t.r(a);var o=t(71062),n=t(12629),e=t(13103),u=function(){return(0,e.tZ)(n.Result,{status:"404",title:"404",subTitle:"Sorry, the page you visited does not exist.",extra:(0,e.tZ)(n.Button,{type:"primary"},"Back Home")})};a.default=u}}]);

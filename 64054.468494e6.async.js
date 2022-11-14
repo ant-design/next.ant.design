@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[64054],{64054:function(a,e,n){n.r(e);var E=n(71062),l=n(12629),t=n(13103),o=(0,t.tZ)("div",null,(0,t.tZ)("p",null,"Content"),(0,t.tZ)("p",null,"Content")),u=function(){return(0,t.tZ)(l.Popover,{content:o,title:"Title"},(0,t.tZ)(l.Button,{type:"primary"},"Hover me"))};e.default=u}}]);
