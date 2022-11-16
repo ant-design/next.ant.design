@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[54848],{54848:function(E,a,t){t.r(a);var e=t(67294),n=t(13669),u=t(13946),s=function(){return(0,u.tZ)(n.Badge,{count:5,offset:[10,10]},(0,u.tZ)(n.Avatar,{shape:"square",size:"large"}))};a.default=s}}]);

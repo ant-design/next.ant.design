@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[14850],{14850:function(l,a,n){n.r(a);var C=n(67294),t=n(13669),u=n(13946),o=function(d){console.log("changed",d)},e=function(){return(0,u.tZ)(t.InputNumber,{min:1,max:10,defaultValue:3,onChange:o})};a.default=e}}]);

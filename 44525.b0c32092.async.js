@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[44525],{44525:function(E,n,t){t.r(n);var l=t(67294),a=t(13669),u=t(13946),o=function(){return(0,u.tZ)(a.FloatButton,{tooltip:(0,u.tZ)("div",null,"Documents")})};n.default=o}}]);

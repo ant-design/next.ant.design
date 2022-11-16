@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[3742],{3742:function(E,a,n){n.r(a);var r=n(67294),u=n(13669),t=n(13946),l=u.Input.TextArea,e=function(){return(0,t.tZ)(r.Fragment,null,(0,t.tZ)(l,{rows:4}),(0,t.tZ)("br",null),(0,t.tZ)("br",null),(0,t.tZ)(l,{rows:4,placeholder:"maxLength is 6",maxLength:6}))};a.default=e}}]);

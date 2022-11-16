@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[56163],{56163:function(u,a,t){t.r(a);var o=t(67294),l=t(13669),n=t(13946),s=function(){return(0,n.tZ)(o.Fragment,null,(0,n.tZ)(l.BackTop,null),"Scroll down to see the bottom-right",(0,n.tZ)("strong",{className:"site-back-top-basic"}," gray "),"button.")};a.default=s}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[64374],{64374:function(o,n,t){t.r(n);var s=t(67294),e=t(13669),l=t(13946),a=e.notification._InternalPanelDoNotUseOrYouWillBeFired;n.default=function(){return(0,l.tZ)(a,{message:"Hello World!",description:"Hello World?",type:"success",btn:(0,l.tZ)(e.Button,{type:"primary",size:"small"},"My Button")})}}}]);

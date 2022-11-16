@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkantd=self.webpackChunkantd||[]).push([[78636],{78636:function(o,e,t){t.r(e);var r=t(67294),l=t(13669),n=t(13946),a=l.Drawer._InternalPanelDoNotUseOrYouWillBeFired;e.default=function(){return(0,n.tZ)("div",{style:{padding:32,background:"#e6e6e6"}},(0,n.tZ)(a,{title:"Hello Title",style:{height:300},footer:"Footer!"},"Hello Content"))}}}]);
